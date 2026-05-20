@@ -1,0 +1,125 @@
+{
+  "tsconfig.json": {
+    "filename": "tsconfig.json",
+    "path": "tsconfig.json",
+    "version": "1.2",
+    "contextFile": "5a95fab8-context.json",
+    "chunks": {
+      "4880ab": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779267533,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "dd3676aa",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "4880ab",
+        "hash": "47009686",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "4880ab",
+        "hash": "c1221f13",
+        "encoded": "%22compilerOptions%22:%20%7B",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "4880ab",
+        "hash": "e800575b",
+        "encoded": "%22target%22:%20%22ES2020%22,",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "4880ab",
+        "hash": "d2d2e498",
+        "encoded": "%22lib%22:%20%5B%22ES2020%22%5D,",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "4880ab",
+        "hash": "74be2a2e",
+        "encoded": "%22strict%22:%20true,",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "4880ab",
+        "hash": "5ed7cec7",
+        "encoded": "%22esModuleInterop%22:%20true,",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "4880ab",
+        "hash": "52c75da8",
+        "encoded": "%22skipLibCheck%22:%20true,",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "4880ab",
+        "hash": "df1af149",
+        "encoded": "%22forceConsistentCasingInFileNames%22:%20true,",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "4880ab",
+        "hash": "1afa4d7d",
+        "encoded": "%22resolveJsonModule%22:%20true,",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "4880ab",
+        "hash": "b3ad7e2d",
+        "encoded": "%22outDir%22:%20%22./dist%22,",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "4880ab",
+        "hash": "39a8f5a3",
+        "encoded": "%22rootDir%22:%20%22./%22,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "4880ab",
+        "hash": "c1feca9c",
+        "encoded": "%22types%22:%20%5B%22node%22,%20%22@playwright/test%22%5D",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "4880ab",
+        "hash": "aaa19923",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "4880ab",
+        "hash": "dc1c4cef",
+        "encoded": "%22include%22:%20%5B%22tests/**/*%22,%20%22pages/**/*%22,%20%22utils/**/*%22,%20%22config/**/*%22%5D,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "4880ab",
+        "hash": "45e60cb9",
+        "encoded": "%22exclude%22:%20%5B%22node_modules%22,%20%22dist%22,%20%22allure-results%22,%20%22allure-report%22%5D",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "4880ab",
+        "hash": "76477189",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

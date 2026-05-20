@@ -1,0 +1,383 @@
+{
+  "playwright.config.ts": {
+    "filename": "playwright.config.ts",
+    "path": "playwright.config.ts",
+    "version": "1.2",
+    "contextFile": "e4bb086f-context.json",
+    "chunks": {
+      "5bc804": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779267534,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "8b67d183",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "5bc804",
+        "hash": "b4b5e821",
+        "encoded": "import%20%7B%20defineConfig,%20devices%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "5bc804",
+        "hash": "de3a3b47",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "5bc804",
+        "hash": "f315baa2",
+        "encoded": "*%20Playwright%20configuration%20for%20robust,%20scalable%20test%20automation",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "5bc804",
+        "hash": "1d95b6f3",
+        "encoded": "*%20@see%20https://playwright.dev/docs/test-configuration",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "5bc804",
+        "hash": "ed5940e5",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "5bc804",
+        "hash": "5d167e98",
+        "encoded": "export%20default%20defineConfig(%7B",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "5bc804",
+        "hash": "88bca80f",
+        "encoded": "//%20Test%20directory",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "5bc804",
+        "hash": "b578f1de",
+        "encoded": "testDir:%20'./tests',",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "5bc804",
+        "hash": "1a03a747",
+        "encoded": "//%20Maximum%20time%20one%20test%20can%20run",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "5bc804",
+        "hash": "5f85fbc4",
+        "encoded": "timeout:%2030%20*%201000,",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "5bc804",
+        "hash": "9e2f864c",
+        "encoded": "//%20Test%20execution%20settings",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "5bc804",
+        "hash": "a55e1630",
+        "encoded": "fullyParallel:%20true,",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "5bc804",
+        "hash": "7ebaae1d",
+        "encoded": "forbidOnly:%20!!process.env.CI,",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "5bc804",
+        "hash": "4d766a8d",
+        "encoded": "retries:%20process.env.CI%20?%202%20:%200,",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "5bc804",
+        "hash": "91cab144",
+        "encoded": "workers:%20process.env.CI%20?%201%20:%20undefined,",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "5bc804",
+        "hash": "1c274dc5",
+        "encoded": "//%20Reporter%20configuration%20with%20Allure",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "5bc804",
+        "hash": "f1fe1cc2",
+        "encoded": "reporter:%20%5B",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "5bc804",
+        "hash": "590619ba",
+        "encoded": "%5B'html',%20%7B%20outputFolder:%20'playwright-report'%20%7D%5D,",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "5bc804",
+        "hash": "25bd5d91",
+        "encoded": "%5B'json',%20%7B%20outputFile:%20'test-results/results.json'%20%7D%5D,",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "5bc804",
+        "hash": "e1ef0a0f",
+        "encoded": "%5B'junit',%20%7B%20outputFile:%20'test-results/junit.xml'%20%7D%5D,",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "5bc804",
+        "hash": "6c2d5168",
+        "encoded": "%5B'allure-playwright',%20%7B",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "5bc804",
+        "hash": "376ee581",
+        "encoded": "outputFolder:%20'allure-results',",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "5bc804",
+        "hash": "4c02e0b8",
+        "encoded": "detail:%20true,",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "5bc804",
+        "hash": "c8060b29",
+        "encoded": "suiteTitle:%20true",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "5bc804",
+        "hash": "4782aafd",
+        "encoded": "%7D%5D,",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "5bc804",
+        "hash": "2d1916d3",
+        "encoded": "%5B'list'%5D",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "5bc804",
+        "hash": "7404895b",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "5bc804",
+        "hash": "b8e82629",
+        "encoded": "//%20Global%20test%20configuration",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "5bc804",
+        "hash": "e1362428",
+        "encoded": "use:%20%7B",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "5bc804",
+        "hash": "860686f3",
+        "encoded": "//%20Base%20URL%20for%20navigation",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "5bc804",
+        "hash": "964d54fc",
+        "encoded": "baseURL:%20process.env.BASE_URL%20%7C%7C%20'https://example.com',",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "5bc804",
+        "hash": "99baa2e4",
+        "encoded": "//%20Browser%20context%20options",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "5bc804",
+        "hash": "0f4a65e9",
+        "encoded": "trace:%20'on-first-retry',",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "5bc804",
+        "hash": "5b879abe",
+        "encoded": "screenshot:%20'only-on-failure',",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "5bc804",
+        "hash": "193245f2",
+        "encoded": "video:%20'retain-on-failure',",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "5bc804",
+        "hash": "2f0a1994",
+        "encoded": "//%20Action%20timeout",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "5bc804",
+        "hash": "cb08abe1",
+        "encoded": "actionTimeout:%2010%20*%201000,",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "5bc804",
+        "hash": "e923032d",
+        "encoded": "//%20Navigation%20timeout",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "5bc804",
+        "hash": "b57eee5e",
+        "encoded": "navigationTimeout:%2030%20*%201000,",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "5bc804",
+        "hash": "951483ff",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "5bc804",
+        "hash": "b5f06e98",
+        "encoded": "//%20Configure%20projects%20for%20multiple%20browsers",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "5bc804",
+        "hash": "d55921d6",
+        "encoded": "projects:%20%5B",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "5bc804",
+        "hash": "d55df3f1",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "5bc804",
+        "hash": "3be1baa6",
+        "encoded": "name:%20'chromium',",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "5bc804",
+        "hash": "04ddae05",
+        "encoded": "use:%20%7B%20...devices%5B'Desktop%20Chrome'%5D%20%7D,",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "5bc804",
+        "hash": "0b781114",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "5bc804",
+        "hash": "e7c8cba0",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "5bc804",
+        "hash": "a949ef9b",
+        "encoded": "name:%20'firefox',",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "5bc804",
+        "hash": "8c9cb52d",
+        "encoded": "use:%20%7B%20...devices%5B'Desktop%20Firefox'%5D%20%7D,",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "5bc804",
+        "hash": "f8847b9a",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "5bc804",
+        "hash": "7783a16a",
+        "encoded": "%7B",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "5bc804",
+        "hash": "7b9dda54",
+        "encoded": "name:%20'webkit',",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "5bc804",
+        "hash": "a7653248",
+        "encoded": "use:%20%7B%20...devices%5B'Desktop%20Safari'%5D%20%7D,",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "5bc804",
+        "hash": "3668736d",
+        "encoded": "%7D,",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "5bc804",
+        "hash": "b7fb3f0c",
+        "encoded": "//%20Mobile%20viewports",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "5bc804",
+        "hash": "902fb27a",
+        "encoded": "%5D,",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "5bc804",
+        "hash": "c4a61f78",
+        "encoded": "//%20Output%20folder%20for%20test%20artifacts",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "5bc804",
+        "hash": "e30aa688",
+        "encoded": "outputDir:%20'test-results/',",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "5bc804",
+        "hash": "8d10f9ca",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

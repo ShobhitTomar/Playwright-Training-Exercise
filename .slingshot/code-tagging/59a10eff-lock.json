@@ -1,0 +1,203 @@
+{
+  ".env.example": {
+    "filename": ".env.example",
+    "path": ".env.example",
+    "version": "1.2",
+    "contextFile": "59a10eff-context.json",
+    "chunks": {
+      "1444c5": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779267536,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "cd9d5603",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "1444c5",
+        "hash": "f137cf1a",
+        "encoded": "#%20Environment%20Configuration",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "1444c5",
+        "hash": "b2ee40c5",
+        "encoded": "#%20Copy%20this%20file%20to%20.env%20and%20update%20with%20your%20values",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "1444c5",
+        "hash": "92cb28e5",
+        "encoded": "#%20Base%20URL%20for%20application%20under%20test",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "1444c5",
+        "hash": "e10a510c",
+        "encoded": "BASE_URL=https://example.com",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "1444c5",
+        "hash": "04f22ac0",
+        "encoded": "#%20Test%20execution%20settings",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "1444c5",
+        "hash": "0c71b24e",
+        "encoded": "HEADLESS=true",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "1444c5",
+        "hash": "a7e76dbb",
+        "encoded": "SLOW_MO=0",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "1444c5",
+        "hash": "a0ee99fe",
+        "encoded": "#%20Browser%20settings",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "1444c5",
+        "hash": "a5d5c6d0",
+        "encoded": "BROWSER=chromium",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "1444c5",
+        "hash": "06613b73",
+        "encoded": "VIEWPORT_WIDTH=1920",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "1444c5",
+        "hash": "7b506884",
+        "encoded": "VIEWPORT_HEIGHT=1080",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "1444c5",
+        "hash": "81a12af1",
+        "encoded": "#%20Timeouts%20(in%20milliseconds)",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "1444c5",
+        "hash": "4c405d10",
+        "encoded": "DEFAULT_TIMEOUT=30000",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "1444c5",
+        "hash": "db2cf110",
+        "encoded": "ACTION_TIMEOUT=10000",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "1444c5",
+        "hash": "0975da37",
+        "encoded": "NAVIGATION_TIMEOUT=30000",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "1444c5",
+        "hash": "5ce42322",
+        "encoded": "#%20Logging",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "1444c5",
+        "hash": "4f716717",
+        "encoded": "DEBUG=false",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "1444c5",
+        "hash": "d6371c89",
+        "encoded": "LOG_LEVEL=info",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "1444c5",
+        "hash": "5c6943f3",
+        "encoded": "#%20Test%20data",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "1444c5",
+        "hash": "263558e3",
+        "encoded": "TEST_USER_EMAIL=testuser@example.com",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "1444c5",
+        "hash": "bca7a43b",
+        "encoded": "TEST_USER_PASSWORD=Test@123456",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "1444c5",
+        "hash": "bce4ed9c",
+        "encoded": "#%20Reporting",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "1444c5",
+        "hash": "bf2ef48d",
+        "encoded": "REPORT_PATH=./test-results",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "1444c5",
+        "hash": "e23c2b5f",
+        "encoded": "SCREENSHOT_ON_FAILURE=true",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "1444c5",
+        "hash": "0763143b",
+        "encoded": "VIDEO_ON_FAILURE=true",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "1444c5",
+        "hash": "a7f4df1c",
+        "encoded": "#%20CI/CD%20settings",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "1444c5",
+        "hash": "7fd6dd99",
+        "encoded": "CI=false",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "1444c5",
+        "hash": "47da7280",
+        "encoded": "RETRIES=2",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "1444c5",
+        "hash": "5cbc74f8",
+        "encoded": "WORKERS=4",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

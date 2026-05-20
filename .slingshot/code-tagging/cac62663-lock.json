@@ -1,0 +1,513 @@
+{
+  "tests\\example.spec.ts": {
+    "filename": "example.spec.ts",
+    "path": "tests\\example.spec.ts",
+    "version": "1.2",
+    "contextFile": "cac62663-context.json",
+    "chunks": {
+      "306186": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779267536,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "9734078f",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "61321e": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779268274,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "62e61470",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      },
+      "6eab90": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779268274,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentEditTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "a470ca8c",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "306186",
+        "hash": "9b22d4ef",
+        "encoded": "import%20%7B%20test,%20expect%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "306186",
+        "hash": "6b1cff7f",
+        "encoded": "import%20%7B%20Logger%20%7D%20from%20'../utils/Logger';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "306186",
+        "hash": "62512d72",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "306186",
+        "hash": "97e5c213",
+        "encoded": "*%20Example%20Test%20Suite%20-%20Dummy%20Tests%20for%20Framework%20Demonstration",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "306186",
+        "hash": "50dd2ec4",
+        "encoded": "*%20Shows%20basic%20Playwright%20test%20structure%20and%20assertions",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "306186",
+        "hash": "f2ad3d4c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "306186",
+        "hash": "95dedf3d",
+        "encoded": "test.describe('Example%20Test%20Suite',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "306186",
+        "hash": "c36d18b0",
+        "encoded": "test.beforeAll(async%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "306186",
+        "hash": "01f67b08",
+        "encoded": "Logger.info('Starting%20Example%20Test%20Suite');",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "306186",
+        "hash": "c484fef0",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "306186",
+        "hash": "74444f3f",
+        "encoded": "test.afterAll(async%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "306186",
+        "hash": "01ed5443",
+        "encoded": "Logger.info('Completed%20Example%20Test%20Suite');",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "306186",
+        "hash": "7abc93a1",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "306186",
+        "hash": "3b40d88f",
+        "encoded": "test('TC_EX001%20-%20Verify%20page%20navigation%20to%20example.com',%20async%20(%7B%20page%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "306186",
+        "hash": "9471a7e6",
+        "encoded": "Logger.step('Navigate%20to%20example.com');",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "306186",
+        "hash": "0aff60e7",
+        "encoded": "await%20page.goto('https://example.com');",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "306186",
+        "hash": "a010b5dd",
+        "encoded": "Logger.step('Verify%20page%20title');",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "306186",
+        "hash": "54d6a619",
+        "encoded": "const%20title%20=%20await%20page.title();",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "306186",
+        "hash": "f9a1e650",
+        "encoded": "Logger.info(%60Page%20title:%20$%7Btitle%7D%60);",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "306186",
+        "hash": "2b128794",
+        "encoded": "expect(title).toBe('Example%20Domain');",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "306186",
+        "hash": "ce5a5c3c",
+        "encoded": "Logger.info('Test%20TC_EX001%20passed');",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "306186",
+        "hash": "56683f82",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "306186",
+        "hash": "243349f6",
+        "encoded": "test('TC_EX002%20-%20Verify%20page%20heading%20is%20visible',%20async%20(%7B%20page%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "306186",
+        "hash": "87bf7cab",
+        "encoded": "Logger.step('Navigate%20to%20example.com');",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "306186",
+        "hash": "cfc4ba51",
+        "encoded": "await%20page.goto('https://example.com');",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "306186",
+        "hash": "30dd82ac",
+        "encoded": "Logger.step('Verify%20heading%20is%20visible');",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "306186",
+        "hash": "d6b5b24b",
+        "encoded": "const%20heading%20=%20page.locator('h1');",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "306186",
+        "hash": "5ca89f73",
+        "encoded": "await%20expect(heading).toBeVisible();",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "306186",
+        "hash": "2e0bcfd3",
+        "encoded": "const%20headingText%20=%20await%20heading.textContent();",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "306186",
+        "hash": "f81088b5",
+        "encoded": "Logger.info(%60Heading%20text:%20$%7BheadingText%7D%60);",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "306186",
+        "hash": "a617b6c7",
+        "encoded": "expect(headingText).toBe('Example%20Domain');",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "306186",
+        "hash": "8bbdbe18",
+        "encoded": "Logger.info('Test%20TC_EX002%20passed');",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "306186",
+        "hash": "9ebe5e1b",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "306186",
+        "hash": "5936e9e2",
+        "encoded": "test('TC_EX003%20-%20Verify%20paragraph%20text%20contains%20expected%20content',%20async%20(%7B%20page%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "306186",
+        "hash": "3a8967d2",
+        "encoded": "Logger.step('Navigate%20to%20example.com');",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "306186",
+        "hash": "bc949596",
+        "encoded": "await%20page.goto('https://example.com');",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "6eab90",
+        "hash": "fe4c630c",
+        "encoded": "Logger.step('Verify%20paragraph%20content');",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "6eab90",
+        "hash": "1cc7dfbe",
+        "encoded": "const%20paragraph%20=%20page.locator('p').first();",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "6eab90",
+        "hash": "65d6fd0a",
+        "encoded": "await%20expect(paragraph).toBeVisible();",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "6eab90",
+        "hash": "6d5ebb07",
+        "encoded": "const%20paragraphText%20=%20await%20paragraph.textContent();",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "6eab90",
+        "hash": "53ff9281",
+        "encoded": "Logger.info(%60Paragraph%20text:%20$%7BparagraphText%7D%60);",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "6eab90",
+        "hash": "2974b65d",
+        "encoded": "expect(paragraphText).toContain('This%20domain%20is%20for%20use%20in%20documentation%20examples');",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "306186",
+        "hash": "2ad31515",
+        "encoded": "const%20paragraph%20=%20page.locator('p').first();",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "306186",
+        "hash": "9b896ddc",
+        "encoded": "await%20expect(paragraph).toBeVisible();",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "306186",
+        "hash": "0c55324b",
+        "encoded": "const%20paragraphText%20=%20await%20paragraph.textContent();",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "306186",
+        "hash": "c9977cbf",
+        "encoded": "Logger.info(%60Paragraph%20text:%20$%7BparagraphText%7D%60);",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "306186",
+        "hash": "eb57b253",
+        "encoded": "expect(paragraphText).toContain('This%20domain%20is%20for%20use%20in%20illustrative%20examples');",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "306186",
+        "hash": "a7e30529",
+        "encoded": "Logger.info('Test%20TC_EX003%20passed');",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "306186",
+        "hash": "da39c591",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "306186",
+        "hash": "93fa13f4",
+        "encoded": "test('TC_EX004%20-%20Verify%20link%20is%20present%20and%20clickable',%20async%20(%7B%20page%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "306186",
+        "hash": "e5565850",
+        "encoded": "Logger.step('Navigate%20to%20example.com');",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "306186",
+        "hash": "651905b4",
+        "encoded": "await%20page.goto('https://example.com');",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "61321e",
+        "hash": "ae915ada",
+        "encoded": "Logger.step('Verify%20link%20is%20present');",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "61321e",
+        "hash": "b0c03811",
+        "encoded": "const%20link%20=%20page.locator('a');",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "61321e",
+        "hash": "a09bfd0e",
+        "encoded": "await%20expect(link).toBeVisible();",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "61321e",
+        "hash": "cd7668ce",
+        "encoded": "const%20linkText%20=%20await%20link.textContent();",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "61321e",
+        "hash": "b26706e7",
+        "encoded": "Logger.info(%60Link%20text:%20$%7BlinkText%7D%60);",
+        "prevChunkIds": []
+      },
+      "76": {
+        "chunkId": "61321e",
+        "hash": "c30bc879",
+        "encoded": "expect(linkText).toContain('Learn%20more');",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "306186",
+        "hash": "b2f1da4b",
+        "encoded": "const%20link%20=%20page.locator('a');",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "306186",
+        "hash": "a4f03fb6",
+        "encoded": "await%20expect(link).toBeVisible();",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "306186",
+        "hash": "9c075eed",
+        "encoded": "const%20linkText%20=%20await%20link.textContent();",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "306186",
+        "hash": "ef3fc6d9",
+        "encoded": "Logger.info(%60Link%20text:%20$%7BlinkText%7D%60);",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "306186",
+        "hash": "c72adc54",
+        "encoded": "expect(linkText).toContain('More%20information');",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "306186",
+        "hash": "396cb2c4",
+        "encoded": "Logger.info('Test%20TC_EX004%20passed');",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "306186",
+        "hash": "6e8213bb",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "306186",
+        "hash": "cb1ae206",
+        "encoded": "test('TC_EX005%20-%20Verify%20page%20URL%20is%20correct',%20async%20(%7B%20page%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "306186",
+        "hash": "bb8d77a7",
+        "encoded": "Logger.step('Navigate%20to%20example.com');",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "306186",
+        "hash": "26f84bc4",
+        "encoded": "await%20page.goto('https://example.com');",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "306186",
+        "hash": "02204d68",
+        "encoded": "Logger.step('Verify%20current%20URL');",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "306186",
+        "hash": "6242e3e9",
+        "encoded": "const%20currentUrl%20=%20page.url();",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "306186",
+        "hash": "18e49c09",
+        "encoded": "Logger.info(%60Current%20URL:%20$%7BcurrentUrl%7D%60);",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "306186",
+        "hash": "dd5709ae",
+        "encoded": "expect(currentUrl).toBe('https://example.com/');",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "306186",
+        "hash": "14e2315a",
+        "encoded": "Logger.info('Test%20TC_EX005%20passed');",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "306186",
+        "hash": "e3b88b3c",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "98": {
+        "chunkId": "306186",
+        "hash": "8a83ede4",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

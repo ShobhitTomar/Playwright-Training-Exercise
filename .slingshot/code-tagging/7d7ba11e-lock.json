@@ -1,0 +1,1229 @@
+{
+  "README.md": {
+    "filename": "README.md",
+    "path": "README.md",
+    "version": "1.2",
+    "contextFile": "7d7ba11e-context.json",
+    "chunks": {
+      "9710d6": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779267537,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "6060b0cb",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "9710d6",
+        "hash": "7ad322d3",
+        "encoded": "#%20Playwright%20Test%20Automation%20Framework",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "9710d6",
+        "hash": "5ac33061",
+        "encoded": "##%20Overview",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "9710d6",
+        "hash": "66f6e86e",
+        "encoded": "A%20robust,%20scalable,%20and%20maintainable%20test%20automation%20framework%20built%20with%20Playwright%20and%20TypeScript,%20implementing%20the%20Page%20Object%20Model%20(POM)%20design%20pattern.",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "9710d6",
+        "hash": "0f5c74a2",
+        "encoded": "##%20Features",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "9710d6",
+        "hash": "39e69895",
+        "encoded": "-%20%E2%9C%85%20**Page%20Object%20Model%20(POM)**%20-%20Maintainable%20and%20reusable%20page%20objects",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "9710d6",
+        "hash": "4e2d497c",
+        "encoded": "-%20%E2%9C%85%20**TypeScript**%20-%20Type-safe%20code%20with%20IntelliSense%20support",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "9710d6",
+        "hash": "ef3c4b9e",
+        "encoded": "-%20%E2%9C%85%20**Multi-browser%20Support**%20-%20Chromium,%20Firefox,%20WebKit,%20and%20mobile%20viewports",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "9710d6",
+        "hash": "df7ed01b",
+        "encoded": "-%20%E2%9C%85%20**Parallel%20Execution**%20-%20Fast%20test%20execution%20with%20parallel%20workers",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "9710d6",
+        "hash": "9a03c80a",
+        "encoded": "-%20%E2%9C%85%20**Comprehensive%20Reporting**%20-%20Allure%20reports,%20HTML%20reports,%20JSON,%20and%20JUnit%20XML",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "9710d6",
+        "hash": "c6087a9c",
+        "encoded": "-%20%E2%9C%85%20**Retry%20Mechanism**%20-%20Automatic%20retry%20for%20flaky%20tests",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "9710d6",
+        "hash": "79fdc92b",
+        "encoded": "-%20%E2%9C%85%20**Screenshot%20&%20Video**%20-%20Capture%20on%20failure%20for%20debugging",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "9710d6",
+        "hash": "3ee0b2e0",
+        "encoded": "-%20%E2%9C%85%20**Logging**%20-%20Structured%20logging%20for%20better%20traceability",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "9710d6",
+        "hash": "b1377be2",
+        "encoded": "-%20%E2%9C%85%20**Environment%20Configuration**%20-%20Flexible%20configuration%20management",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "9710d6",
+        "hash": "a4a1b927",
+        "encoded": "-%20%E2%9C%85%20**CI/CD%20Ready**%20-%20Configured%20for%20continuous%20integration",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "9710d6",
+        "hash": "0f65e40e",
+        "encoded": "##%20Project%20Structure",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "9710d6",
+        "hash": "0380e888",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "9710d6",
+        "hash": "ae321630",
+        "encoded": "playwright-framework/",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "9710d6",
+        "hash": "f759565a",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20pages/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Page%20Object%20Model%20classes",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "9710d6",
+        "hash": "f35e3a18",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20BasePage.ts%20%20%20%20%20%20%20%20#%20Base%20page%20with%20common%20methods",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "9710d6",
+        "hash": "93e66c59",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20LoginPage.ts%20%20%20%20%20%20%20#%20Login%20page%20object",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "9710d6",
+        "hash": "4d178c87",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20HomePage.ts%20%20%20%20%20%20%20%20#%20Home%20page%20object",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "9710d6",
+        "hash": "71a70518",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20tests/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Test%20specifications",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "9710d6",
+        "hash": "0872a215",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20login.spec.ts%20%20%20%20%20#%20Login%20test%20suite",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "9710d6",
+        "hash": "f05a216e",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20example.spec.ts%20%20%20#%20Example%20test%20suite",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "9710d6",
+        "hash": "0c0f635d",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20utils/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20#%20Utility%20classes",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "9710d6",
+        "hash": "c4af87ce",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20TestData.ts%20%20%20%20%20%20%20#%20Test%20data%20management",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "9710d6",
+        "hash": "ce4f337f",
+        "encoded": "%E2%94%82%20%20%20%E2%94%9C%E2%94%80%E2%94%80%20Logger.ts%20%20%20%20%20%20%20%20%20#%20Custom%20logger",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "9710d6",
+        "hash": "eed8a52b",
+        "encoded": "%E2%94%82%20%20%20%E2%94%94%E2%94%80%E2%94%80%20TestHelpers.ts%20%20%20%20#%20Helper%20functions",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "9710d6",
+        "hash": "585e450a",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20test-results/%20%20%20%20%20%20%20%20%20#%20Test%20execution%20results",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "9710d6",
+        "hash": "5c333150",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20playwright-report/%20%20%20%20#%20HTML%20test%20reports",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "9710d6",
+        "hash": "cea5a819",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20allure-results/%20%20%20%20%20%20%20#%20Allure%20test%20results",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "9710d6",
+        "hash": "8cefe322",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20allure-report/%20%20%20%20%20%20%20%20#%20Allure%20HTML%20reports",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "9710d6",
+        "hash": "f8d6e675",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20playwright.config.ts%20%20#%20Playwright%20configuration",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "9710d6",
+        "hash": "bbb6c942",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20tsconfig.json%20%20%20%20%20%20%20%20%20#%20TypeScript%20configuration",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "9710d6",
+        "hash": "192db20c",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20package.json%20%20%20%20%20%20%20%20%20%20#%20Project%20dependencies",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "9710d6",
+        "hash": "ee052177",
+        "encoded": "%E2%94%9C%E2%94%80%E2%94%80%20.env.example%20%20%20%20%20%20%20%20%20%20#%20Environment%20variables%20template",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "9710d6",
+        "hash": "b9c72262",
+        "encoded": "%E2%94%94%E2%94%80%E2%94%80%20README.md%20%20%20%20%20%20%20%20%20%20%20%20#%20This%20file",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "9710d6",
+        "hash": "cd4430ef",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "9710d6",
+        "hash": "8642240e",
+        "encoded": "##%20Prerequisites",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "9710d6",
+        "hash": "2cc5afdd",
+        "encoded": "-%20Node.js%20(v18%20or%20higher)",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "9710d6",
+        "hash": "1ba46f23",
+        "encoded": "-%20npm%20or%20yarn",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "9710d6",
+        "hash": "c07898fb",
+        "encoded": "##%20Installation",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "9710d6",
+        "hash": "1989858f",
+        "encoded": "1.%20Clone%20the%20repository:",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "9710d6",
+        "hash": "81975a11",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "9710d6",
+        "hash": "c5695787",
+        "encoded": "git%20clone%20%3Crepository-url%3E",
+        "prevChunkIds": []
+      },
+      "51": {
+        "chunkId": "9710d6",
+        "hash": "006d2fe3",
+        "encoded": "cd%20playwright-framework",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "9710d6",
+        "hash": "b99b67e3",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "9710d6",
+        "hash": "addea2e3",
+        "encoded": "2.%20Install%20dependencies:",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "9710d6",
+        "hash": "88e2220b",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "9710d6",
+        "hash": "70fda449",
+        "encoded": "npm%20install",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "9710d6",
+        "hash": "6006e83e",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "59": {
+        "chunkId": "9710d6",
+        "hash": "11a677a0",
+        "encoded": "3.%20Install%20Playwright%20browsers:",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "9710d6",
+        "hash": "08d09321",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "9710d6",
+        "hash": "116cbf68",
+        "encoded": "npx%20playwright%20install",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "9710d6",
+        "hash": "54b98e4e",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "9710d6",
+        "hash": "58734503",
+        "encoded": "4.%20Configure%20environment%20variables:",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "9710d6",
+        "hash": "7b30b000",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "66": {
+        "chunkId": "9710d6",
+        "hash": "79d65507",
+        "encoded": "cp%20.env.example%20.env",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "9710d6",
+        "hash": "e7cfaf76",
+        "encoded": "#%20Edit%20.env%20with%20your%20configuration",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "9710d6",
+        "hash": "6053681b",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "9710d6",
+        "hash": "f78d0238",
+        "encoded": "##%20Running%20Tests",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "9710d6",
+        "hash": "c917b61d",
+        "encoded": "###%20Run%20all%20tests",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "9710d6",
+        "hash": "34c5a2f0",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "9710d6",
+        "hash": "6bf48c43",
+        "encoded": "npx%20playwright%20test",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "9710d6",
+        "hash": "f95f11be",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "9710d6",
+        "hash": "799271ea",
+        "encoded": "###%20Run%20tests%20in%20headed%20mode",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "9710d6",
+        "hash": "3f7d0245",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "9710d6",
+        "hash": "b0e919eb",
+        "encoded": "npx%20playwright%20test%20--headed",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "9710d6",
+        "hash": "7c6962b8",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "9710d6",
+        "hash": "0c06aa55",
+        "encoded": "###%20Run%20specific%20test%20file",
+        "prevChunkIds": []
+      },
+      "83": {
+        "chunkId": "9710d6",
+        "hash": "d6a77c6f",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "9710d6",
+        "hash": "ac178d50",
+        "encoded": "npx%20playwright%20test%20tests/example.spec.ts",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "9710d6",
+        "hash": "2e72b4ad",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "9710d6",
+        "hash": "92f0fd1b",
+        "encoded": "###%20Run%20tests%20in%20specific%20browser",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "9710d6",
+        "hash": "e6057050",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "9710d6",
+        "hash": "923eb677",
+        "encoded": "npx%20playwright%20test%20--project=chromium",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "9710d6",
+        "hash": "7665371c",
+        "encoded": "npx%20playwright%20test%20--project=firefox",
+        "prevChunkIds": []
+      },
+      "91": {
+        "chunkId": "9710d6",
+        "hash": "53098462",
+        "encoded": "npx%20playwright%20test%20--project=webkit",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "9710d6",
+        "hash": "d98a3315",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "9710d6",
+        "hash": "099ca209",
+        "encoded": "###%20Run%20tests%20with%20UI%20mode",
+        "prevChunkIds": []
+      },
+      "95": {
+        "chunkId": "9710d6",
+        "hash": "65027f7f",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "96": {
+        "chunkId": "9710d6",
+        "hash": "864804d7",
+        "encoded": "npx%20playwright%20test%20--ui",
+        "prevChunkIds": []
+      },
+      "97": {
+        "chunkId": "9710d6",
+        "hash": "a80e65bb",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "99": {
+        "chunkId": "9710d6",
+        "hash": "02215995",
+        "encoded": "###%20Debug%20tests",
+        "prevChunkIds": []
+      },
+      "100": {
+        "chunkId": "9710d6",
+        "hash": "ce37855e",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "101": {
+        "chunkId": "9710d6",
+        "hash": "c2d516bc",
+        "encoded": "npx%20playwright%20test%20--debug",
+        "prevChunkIds": []
+      },
+      "102": {
+        "chunkId": "9710d6",
+        "hash": "d31b20af",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "104": {
+        "chunkId": "9710d6",
+        "hash": "c8e9fed7",
+        "encoded": "##%20Reporting",
+        "prevChunkIds": []
+      },
+      "106": {
+        "chunkId": "9710d6",
+        "hash": "c4fc49e8",
+        "encoded": "###%20View%20HTML%20Report",
+        "prevChunkIds": []
+      },
+      "107": {
+        "chunkId": "9710d6",
+        "hash": "e1ef3577",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "108": {
+        "chunkId": "9710d6",
+        "hash": "7041a0ba",
+        "encoded": "npx%20playwright%20show-report",
+        "prevChunkIds": []
+      },
+      "109": {
+        "chunkId": "9710d6",
+        "hash": "7ee5fd0c",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "111": {
+        "chunkId": "9710d6",
+        "hash": "aca27a4d",
+        "encoded": "###%20Generate%20Allure%20Report",
+        "prevChunkIds": []
+      },
+      "112": {
+        "chunkId": "9710d6",
+        "hash": "27968b7c",
+        "encoded": "%60%60%60bash",
+        "prevChunkIds": []
+      },
+      "113": {
+        "chunkId": "9710d6",
+        "hash": "acc27184",
+        "encoded": "#%20Generate%20and%20open%20Allure%20report",
+        "prevChunkIds": []
+      },
+      "114": {
+        "chunkId": "9710d6",
+        "hash": "8d6abc40",
+        "encoded": "allure%20generate%20allure-results%20--clean%20-o%20allure-report",
+        "prevChunkIds": []
+      },
+      "115": {
+        "chunkId": "9710d6",
+        "hash": "5fd1347b",
+        "encoded": "allure%20open%20allure-report",
+        "prevChunkIds": []
+      },
+      "116": {
+        "chunkId": "9710d6",
+        "hash": "0b0aae24",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "118": {
+        "chunkId": "9710d6",
+        "hash": "fb79b760",
+        "encoded": "###%20View%20Test%20Results",
+        "prevChunkIds": []
+      },
+      "119": {
+        "chunkId": "9710d6",
+        "hash": "dde54a25",
+        "encoded": "-%20HTML%20Report:%20%60playwright-report/index.html%60",
+        "prevChunkIds": []
+      },
+      "120": {
+        "chunkId": "9710d6",
+        "hash": "53ea7218",
+        "encoded": "-%20Allure%20Report:%20%60allure-report/index.html%60",
+        "prevChunkIds": []
+      },
+      "121": {
+        "chunkId": "9710d6",
+        "hash": "8e52bba5",
+        "encoded": "-%20JSON%20Results:%20%60test-results/results.json%60",
+        "prevChunkIds": []
+      },
+      "122": {
+        "chunkId": "9710d6",
+        "hash": "fe83ad6f",
+        "encoded": "-%20JUnit%20XML:%20%60test-results/junit.xml%60",
+        "prevChunkIds": []
+      },
+      "124": {
+        "chunkId": "9710d6",
+        "hash": "eb22be43",
+        "encoded": "##%20Writing%20Tests",
+        "prevChunkIds": []
+      },
+      "126": {
+        "chunkId": "9710d6",
+        "hash": "ce0af0a9",
+        "encoded": "###%20Create%20a%20new%20Page%20Object",
+        "prevChunkIds": []
+      },
+      "127": {
+        "chunkId": "9710d6",
+        "hash": "73e47cd3",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "128": {
+        "chunkId": "9710d6",
+        "hash": "ebd18478",
+        "encoded": "import%20%7B%20Page,%20Locator%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "129": {
+        "chunkId": "9710d6",
+        "hash": "135736c3",
+        "encoded": "import%20%7B%20BasePage%20%7D%20from%20'./BasePage';",
+        "prevChunkIds": []
+      },
+      "131": {
+        "chunkId": "9710d6",
+        "hash": "af2dbecc",
+        "encoded": "export%20class%20YourPage%20extends%20BasePage%20%7B",
+        "prevChunkIds": []
+      },
+      "132": {
+        "chunkId": "9710d6",
+        "hash": "ca8a34cb",
+        "encoded": "private%20readonly%20element:%20Locator;",
+        "prevChunkIds": []
+      },
+      "134": {
+        "chunkId": "9710d6",
+        "hash": "e78c6b4e",
+        "encoded": "constructor(page:%20Page)%20%7B",
+        "prevChunkIds": []
+      },
+      "135": {
+        "chunkId": "9710d6",
+        "hash": "50e24e51",
+        "encoded": "super(page,%20'/your-url');",
+        "prevChunkIds": []
+      },
+      "136": {
+        "chunkId": "9710d6",
+        "hash": "0f157e2b",
+        "encoded": "this.element%20=%20page.locator('#element-id');",
+        "prevChunkIds": []
+      },
+      "137": {
+        "chunkId": "9710d6",
+        "hash": "1dc2599e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "139": {
+        "chunkId": "9710d6",
+        "hash": "423525fc",
+        "encoded": "async%20yourMethod():%20Promise%3Cvoid%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "140": {
+        "chunkId": "9710d6",
+        "hash": "f190882f",
+        "encoded": "await%20this.click(this.element);",
+        "prevChunkIds": []
+      },
+      "141": {
+        "chunkId": "9710d6",
+        "hash": "4e2389e2",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "142": {
+        "chunkId": "9710d6",
+        "hash": "1b2fde43",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "143": {
+        "chunkId": "9710d6",
+        "hash": "dc91ebc7",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "145": {
+        "chunkId": "9710d6",
+        "hash": "2643d8e5",
+        "encoded": "###%20Create%20a%20new%20Test",
+        "prevChunkIds": []
+      },
+      "146": {
+        "chunkId": "9710d6",
+        "hash": "4db5af0a",
+        "encoded": "%60%60%60typescript",
+        "prevChunkIds": []
+      },
+      "147": {
+        "chunkId": "9710d6",
+        "hash": "34211552",
+        "encoded": "import%20%7B%20test,%20expect%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "148": {
+        "chunkId": "9710d6",
+        "hash": "2469e667",
+        "encoded": "import%20%7B%20YourPage%20%7D%20from%20'../pages/YourPage';",
+        "prevChunkIds": []
+      },
+      "149": {
+        "chunkId": "9710d6",
+        "hash": "16d5bad0",
+        "encoded": "import%20%7B%20Logger%20%7D%20from%20'../utils/Logger';",
+        "prevChunkIds": []
+      },
+      "151": {
+        "chunkId": "9710d6",
+        "hash": "496ffac2",
+        "encoded": "test.describe('Your%20Test%20Suite',%20()%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "152": {
+        "chunkId": "9710d6",
+        "hash": "adce38bc",
+        "encoded": "test('Your%20test%20case',%20async%20(%7B%20page%20%7D)%20=%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "153": {
+        "chunkId": "9710d6",
+        "hash": "d0a0d16b",
+        "encoded": "Logger.step('Test%20step%20description');",
+        "prevChunkIds": []
+      },
+      "154": {
+        "chunkId": "9710d6",
+        "hash": "72059205",
+        "encoded": "const%20yourPage%20=%20new%20YourPage(page);",
+        "prevChunkIds": []
+      },
+      "155": {
+        "chunkId": "9710d6",
+        "hash": "b819b959",
+        "encoded": "await%20yourPage.navigate();",
+        "prevChunkIds": []
+      },
+      "156": {
+        "chunkId": "9710d6",
+        "hash": "e3157518",
+        "encoded": "//%20Your%20test%20logic",
+        "prevChunkIds": []
+      },
+      "157": {
+        "chunkId": "9710d6",
+        "hash": "e1561d68",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "158": {
+        "chunkId": "9710d6",
+        "hash": "6b2ec66b",
+        "encoded": "%7D);",
+        "prevChunkIds": []
+      },
+      "159": {
+        "chunkId": "9710d6",
+        "hash": "753e92c7",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "161": {
+        "chunkId": "9710d6",
+        "hash": "32b85453",
+        "encoded": "##%20Best%20Practices",
+        "prevChunkIds": []
+      },
+      "163": {
+        "chunkId": "9710d6",
+        "hash": "637087ef",
+        "encoded": "1.%20**Page%20Object%20Model**",
+        "prevChunkIds": []
+      },
+      "164": {
+        "chunkId": "9710d6",
+        "hash": "cc7a2cab",
+        "encoded": "-%20Keep%20page%20objects%20focused%20on%20a%20single%20page",
+        "prevChunkIds": []
+      },
+      "165": {
+        "chunkId": "9710d6",
+        "hash": "cf5cfe0e",
+        "encoded": "-%20Use%20descriptive%20names%20for%20locators%20and%20methods",
+        "prevChunkIds": []
+      },
+      "166": {
+        "chunkId": "9710d6",
+        "hash": "193a2bd9",
+        "encoded": "-%20Extend%20BasePage%20for%20common%20functionality",
+        "prevChunkIds": []
+      },
+      "168": {
+        "chunkId": "9710d6",
+        "hash": "f9ff2c37",
+        "encoded": "2.%20**Test%20Organization**",
+        "prevChunkIds": []
+      },
+      "169": {
+        "chunkId": "9710d6",
+        "hash": "7b999e59",
+        "encoded": "-%20Group%20related%20tests%20in%20describe%20blocks",
+        "prevChunkIds": []
+      },
+      "170": {
+        "chunkId": "9710d6",
+        "hash": "bb91d9ef",
+        "encoded": "-%20Use%20meaningful%20test%20names",
+        "prevChunkIds": []
+      },
+      "171": {
+        "chunkId": "9710d6",
+        "hash": "c13edbfa",
+        "encoded": "-%20Keep%20tests%20independent%20and%20isolated",
+        "prevChunkIds": []
+      },
+      "173": {
+        "chunkId": "9710d6",
+        "hash": "7a4d57c1",
+        "encoded": "3.%20**Locators**",
+        "prevChunkIds": []
+      },
+      "174": {
+        "chunkId": "9710d6",
+        "hash": "b1dfb9df",
+        "encoded": "-%20Prefer%20user-facing%20attributes%20(text,%20role,%20label)",
+        "prevChunkIds": []
+      },
+      "175": {
+        "chunkId": "9710d6",
+        "hash": "e72339da",
+        "encoded": "-%20Use%20data-testid%20for%20stable%20selectors",
+        "prevChunkIds": []
+      },
+      "176": {
+        "chunkId": "9710d6",
+        "hash": "a0c1bd18",
+        "encoded": "-%20Avoid%20CSS%20selectors%20that%20depend%20on%20implementation",
+        "prevChunkIds": []
+      },
+      "178": {
+        "chunkId": "9710d6",
+        "hash": "ea84ae8e",
+        "encoded": "4.%20**Assertions**",
+        "prevChunkIds": []
+      },
+      "179": {
+        "chunkId": "9710d6",
+        "hash": "b6c88b4c",
+        "encoded": "-%20Use%20Playwright's%20auto-waiting%20assertions",
+        "prevChunkIds": []
+      },
+      "180": {
+        "chunkId": "9710d6",
+        "hash": "0459869a",
+        "encoded": "-%20Make%20assertions%20specific%20and%20meaningful",
+        "prevChunkIds": []
+      },
+      "181": {
+        "chunkId": "9710d6",
+        "hash": "2ddfc76c",
+        "encoded": "-%20Add%20custom%20error%20messages%20for%20clarity",
+        "prevChunkIds": []
+      },
+      "183": {
+        "chunkId": "9710d6",
+        "hash": "08abc279",
+        "encoded": "5.%20**Error%20Handling**",
+        "prevChunkIds": []
+      },
+      "184": {
+        "chunkId": "9710d6",
+        "hash": "0504c132",
+        "encoded": "-%20Use%20try-catch%20for%20expected%20failures",
+        "prevChunkIds": []
+      },
+      "185": {
+        "chunkId": "9710d6",
+        "hash": "5b3b0f12",
+        "encoded": "-%20Log%20errors%20with%20context",
+        "prevChunkIds": []
+      },
+      "186": {
+        "chunkId": "9710d6",
+        "hash": "e0bd0581",
+        "encoded": "-%20Take%20screenshots%20on%20failure",
+        "prevChunkIds": []
+      },
+      "188": {
+        "chunkId": "9710d6",
+        "hash": "c2a0db4a",
+        "encoded": "##%20CI/CD%20Integration",
+        "prevChunkIds": []
+      },
+      "190": {
+        "chunkId": "9710d6",
+        "hash": "785714ad",
+        "encoded": "###%20GitHub%20Actions%20Example",
+        "prevChunkIds": []
+      },
+      "191": {
+        "chunkId": "9710d6",
+        "hash": "2b69a277",
+        "encoded": "%60%60%60yaml",
+        "prevChunkIds": []
+      },
+      "192": {
+        "chunkId": "9710d6",
+        "hash": "cd431908",
+        "encoded": "name:%20Playwright%20Tests",
+        "prevChunkIds": []
+      },
+      "193": {
+        "chunkId": "9710d6",
+        "hash": "7402b751",
+        "encoded": "on:%20%5Bpush,%20pull_request%5D",
+        "prevChunkIds": []
+      },
+      "194": {
+        "chunkId": "9710d6",
+        "hash": "7a6b7a83",
+        "encoded": "jobs:",
+        "prevChunkIds": []
+      },
+      "195": {
+        "chunkId": "9710d6",
+        "hash": "fa716611",
+        "encoded": "test:",
+        "prevChunkIds": []
+      },
+      "196": {
+        "chunkId": "9710d6",
+        "hash": "c56d7377",
+        "encoded": "runs-on:%20ubuntu-latest",
+        "prevChunkIds": []
+      },
+      "197": {
+        "chunkId": "9710d6",
+        "hash": "62a3517b",
+        "encoded": "steps:",
+        "prevChunkIds": []
+      },
+      "198": {
+        "chunkId": "9710d6",
+        "hash": "4c6912ea",
+        "encoded": "-%20uses:%20actions/checkout@v3",
+        "prevChunkIds": []
+      },
+      "199": {
+        "chunkId": "9710d6",
+        "hash": "f8080994",
+        "encoded": "-%20uses:%20actions/setup-node@v3",
+        "prevChunkIds": []
+      },
+      "200": {
+        "chunkId": "9710d6",
+        "hash": "3dadefd8",
+        "encoded": "with:",
+        "prevChunkIds": []
+      },
+      "201": {
+        "chunkId": "9710d6",
+        "hash": "fd500ecf",
+        "encoded": "node-version:%2018",
+        "prevChunkIds": []
+      },
+      "202": {
+        "chunkId": "9710d6",
+        "hash": "a350c465",
+        "encoded": "-%20run:%20npm%20ci",
+        "prevChunkIds": []
+      },
+      "203": {
+        "chunkId": "9710d6",
+        "hash": "e16b894a",
+        "encoded": "-%20run:%20npx%20playwright%20install%20--with-deps",
+        "prevChunkIds": []
+      },
+      "204": {
+        "chunkId": "9710d6",
+        "hash": "b35731d3",
+        "encoded": "-%20run:%20npx%20playwright%20test",
+        "prevChunkIds": []
+      },
+      "205": {
+        "chunkId": "9710d6",
+        "hash": "bf765d5f",
+        "encoded": "-%20uses:%20actions/upload-artifact@v3",
+        "prevChunkIds": []
+      },
+      "206": {
+        "chunkId": "9710d6",
+        "hash": "bbe2ea9a",
+        "encoded": "if:%20always()",
+        "prevChunkIds": []
+      },
+      "207": {
+        "chunkId": "9710d6",
+        "hash": "a408641a",
+        "encoded": "with:",
+        "prevChunkIds": []
+      },
+      "208": {
+        "chunkId": "9710d6",
+        "hash": "29a7d5ec",
+        "encoded": "name:%20playwright-report",
+        "prevChunkIds": []
+      },
+      "209": {
+        "chunkId": "9710d6",
+        "hash": "3c6a7aad",
+        "encoded": "path:%20playwright-report/",
+        "prevChunkIds": []
+      },
+      "210": {
+        "chunkId": "9710d6",
+        "hash": "5cbb2974",
+        "encoded": "%60%60%60",
+        "prevChunkIds": []
+      },
+      "212": {
+        "chunkId": "9710d6",
+        "hash": "83da8395",
+        "encoded": "##%20Troubleshooting",
+        "prevChunkIds": []
+      },
+      "214": {
+        "chunkId": "9710d6",
+        "hash": "5c8b368e",
+        "encoded": "###%20Tests%20are%20failing",
+        "prevChunkIds": []
+      },
+      "215": {
+        "chunkId": "9710d6",
+        "hash": "eb471ea1",
+        "encoded": "-%20Check%20if%20browsers%20are%20installed:%20%60npx%20playwright%20install%60",
+        "prevChunkIds": []
+      },
+      "216": {
+        "chunkId": "9710d6",
+        "hash": "dd194582",
+        "encoded": "-%20Verify%20environment%20variables%20in%20%60.env%60",
+        "prevChunkIds": []
+      },
+      "217": {
+        "chunkId": "9710d6",
+        "hash": "0ad163da",
+        "encoded": "-%20Run%20in%20headed%20mode%20to%20see%20what's%20happening:%20%60npx%20playwright%20test%20--headed%60",
+        "prevChunkIds": []
+      },
+      "218": {
+        "chunkId": "9710d6",
+        "hash": "7dc21d25",
+        "encoded": "-%20Enable%20debug%20mode:%20%60npx%20playwright%20test%20--debug%60",
+        "prevChunkIds": []
+      },
+      "220": {
+        "chunkId": "9710d6",
+        "hash": "ce07860c",
+        "encoded": "###%20Slow%20test%20execution",
+        "prevChunkIds": []
+      },
+      "221": {
+        "chunkId": "9710d6",
+        "hash": "6b235f1f",
+        "encoded": "-%20Reduce%20parallel%20workers%20in%20%60playwright.config.ts%60",
+        "prevChunkIds": []
+      },
+      "222": {
+        "chunkId": "9710d6",
+        "hash": "ea035704",
+        "encoded": "-%20Disable%20video%20recording%20for%20faster%20execution",
+        "prevChunkIds": []
+      },
+      "223": {
+        "chunkId": "9710d6",
+        "hash": "983d1e64",
+        "encoded": "-%20Use%20%60networkidle%60%20wait%20strategy%20sparingly",
+        "prevChunkIds": []
+      },
+      "225": {
+        "chunkId": "9710d6",
+        "hash": "4009c082",
+        "encoded": "##%20Contributing",
+        "prevChunkIds": []
+      },
+      "226": {
+        "chunkId": "9710d6",
+        "hash": "fe06bda2",
+        "encoded": "1.%20Fork%20the%20repository",
+        "prevChunkIds": []
+      },
+      "227": {
+        "chunkId": "9710d6",
+        "hash": "3f058415",
+        "encoded": "2.%20Create%20a%20feature%20branch",
+        "prevChunkIds": []
+      },
+      "228": {
+        "chunkId": "9710d6",
+        "hash": "db27da16",
+        "encoded": "3.%20Commit%20your%20changes",
+        "prevChunkIds": []
+      },
+      "229": {
+        "chunkId": "9710d6",
+        "hash": "97d5a4c5",
+        "encoded": "4.%20Push%20to%20the%20branch",
+        "prevChunkIds": []
+      },
+      "230": {
+        "chunkId": "9710d6",
+        "hash": "224f2316",
+        "encoded": "5.%20Create%20a%20Pull%20Request",
+        "prevChunkIds": []
+      },
+      "232": {
+        "chunkId": "9710d6",
+        "hash": "361769fb",
+        "encoded": "##%20License",
+        "prevChunkIds": []
+      },
+      "233": {
+        "chunkId": "9710d6",
+        "hash": "0a328271",
+        "encoded": "MIT%20License",
+        "prevChunkIds": []
+      },
+      "235": {
+        "chunkId": "9710d6",
+        "hash": "6a4462d2",
+        "encoded": "##%20Support",
+        "prevChunkIds": []
+      },
+      "236": {
+        "chunkId": "9710d6",
+        "hash": "49380ac5",
+        "encoded": "For%20issues%20and%20questions,%20please%20create%20an%20issue%20in%20the%20repository.",
+        "prevChunkIds": []
+      },
+      "238": {
+        "chunkId": "9710d6",
+        "hash": "2058a083",
+        "encoded": "##%20Author",
+        "prevChunkIds": []
+      },
+      "239": {
+        "chunkId": "9710d6",
+        "hash": "939b2fb6",
+        "encoded": "QA%20Professional",
+        "prevChunkIds": []
+      },
+      "241": {
+        "chunkId": "9710d6",
+        "hash": "f7811731",
+        "encoded": "---",
+        "prevChunkIds": []
+      },
+      "242": {
+        "chunkId": "9710d6",
+        "hash": "50a89cf7",
+        "encoded": "**Happy%20Testing!%20%F0%9F%9A%80**",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

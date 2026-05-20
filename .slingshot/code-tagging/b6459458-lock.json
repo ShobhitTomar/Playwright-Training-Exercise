@@ -1,0 +1,257 @@
+{
+  ".gitignore": {
+    "filename": ".gitignore",
+    "path": ".gitignore",
+    "version": "1.2",
+    "contextFile": "b6459458-context.json",
+    "chunks": {
+      "16ec58": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779267537,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "df93a425",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "16ec58",
+        "hash": "78a5f81f",
+        "encoded": "#%20Dependencies",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "16ec58",
+        "hash": "e645e5bb",
+        "encoded": "node_modules/",
+        "prevChunkIds": []
+      },
+      "2": {
+        "chunkId": "16ec58",
+        "hash": "fa478c9a",
+        "encoded": "package-lock.json",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "16ec58",
+        "hash": "fe08479a",
+        "encoded": "yarn.lock",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "16ec58",
+        "hash": "ced06079",
+        "encoded": "pnpm-lock.yaml",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "16ec58",
+        "hash": "22b04d8c",
+        "encoded": "#%20Test%20results%20and%20reports",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "16ec58",
+        "hash": "1ee65c1d",
+        "encoded": "test-results/",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "16ec58",
+        "hash": "a91ea9f7",
+        "encoded": "playwright-report/",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "16ec58",
+        "hash": "d360910f",
+        "encoded": "allure-results/",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "16ec58",
+        "hash": "07b67e80",
+        "encoded": "allure-report/",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "16ec58",
+        "hash": "a93bac0f",
+        "encoded": "screenshots/",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "16ec58",
+        "hash": "c59d8a19",
+        "encoded": "videos/",
+        "prevChunkIds": []
+      },
+      "14": {
+        "chunkId": "16ec58",
+        "hash": "96137306",
+        "encoded": "#%20TypeScript",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "16ec58",
+        "hash": "dc0d7d71",
+        "encoded": "dist/",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "16ec58",
+        "hash": "15f6444b",
+        "encoded": "*.tsbuildinfo",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "16ec58",
+        "hash": "199f47b0",
+        "encoded": "#%20Environment%20variables",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "16ec58",
+        "hash": "2bb0a1cc",
+        "encoded": ".env",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "16ec58",
+        "hash": "25353151",
+        "encoded": ".env.local",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "16ec58",
+        "hash": "8898d96d",
+        "encoded": ".env.*.local",
+        "prevChunkIds": []
+      },
+      "23": {
+        "chunkId": "16ec58",
+        "hash": "8633e152",
+        "encoded": "#%20IDE",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "16ec58",
+        "hash": "5605c64f",
+        "encoded": ".vscode/",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "16ec58",
+        "hash": "538bc7b0",
+        "encoded": ".idea/",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "16ec58",
+        "hash": "39bdf43a",
+        "encoded": "*.swp",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "16ec58",
+        "hash": "dd3496eb",
+        "encoded": "*.swo",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "16ec58",
+        "hash": "e5f8e196",
+        "encoded": "*~",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "16ec58",
+        "hash": "2d639890",
+        "encoded": ".DS_Store",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "16ec58",
+        "hash": "07dea857",
+        "encoded": "#%20Logs",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "16ec58",
+        "hash": "92a7e5f6",
+        "encoded": "logs/",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "16ec58",
+        "hash": "a4ecba39",
+        "encoded": "*.log",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "16ec58",
+        "hash": "3b8ed380",
+        "encoded": "npm-debug.log*",
+        "prevChunkIds": []
+      },
+      "35": {
+        "chunkId": "16ec58",
+        "hash": "53547959",
+        "encoded": "yarn-debug.log*",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "16ec58",
+        "hash": "ed2ae0cb",
+        "encoded": "yarn-error.log*",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "16ec58",
+        "hash": "2e45abc7",
+        "encoded": "#%20OS",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "16ec58",
+        "hash": "0a09cc75",
+        "encoded": "Thumbs.db",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "16ec58",
+        "hash": "9984a658",
+        "encoded": ".DS_Store",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "16ec58",
+        "hash": "55a30478",
+        "encoded": "#%20Playwright",
+        "prevChunkIds": []
+      },
+      "43": {
+        "chunkId": "16ec58",
+        "hash": "1bbf71b9",
+        "encoded": "playwright/.cache/",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "16ec58",
+        "hash": "48cd91c6",
+        "encoded": ".playwright/",
+        "prevChunkIds": []
+      }
+    }
+  }
+}

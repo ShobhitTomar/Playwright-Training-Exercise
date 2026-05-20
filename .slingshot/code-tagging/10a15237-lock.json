@@ -1,0 +1,533 @@
+{
+  "utils\\TestHelpers.ts": {
+    "filename": "TestHelpers.ts",
+    "path": "utils\\TestHelpers.ts",
+    "version": "1.2",
+    "contextFile": "10a15237-context.json",
+    "chunks": {
+      "ab1e22": {
+        "user": "Shobhit Tomar",
+        "model": "claude-sonnet-4-5@20250929",
+        "timestamp": 1779267535,
+        "platform": "VisualStudioCode",
+        "product": "AIPP",
+        "productVersion": "2.5.0",
+        "source": "agent",
+        "type": "agentWriteTool",
+        "extraContext": {
+          "promptMessage": "4cd01734"
+        },
+        "hash": "fbfc30e0",
+        "messageId": "system_4bb09f00-5427-11f1-a66c-756149e0381b",
+        "codeBlockId": null,
+        "isActive": true
+      }
+    },
+    "lines": {
+      "0": {
+        "chunkId": "ab1e22",
+        "hash": "1dcb06da",
+        "encoded": "import%20%7B%20Page%20%7D%20from%20'@playwright/test';",
+        "prevChunkIds": []
+      },
+      "1": {
+        "chunkId": "ab1e22",
+        "hash": "7cf4fe35",
+        "encoded": "import%20%7B%20Logger%20%7D%20from%20'./Logger';",
+        "prevChunkIds": []
+      },
+      "3": {
+        "chunkId": "ab1e22",
+        "hash": "62512d72",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "4": {
+        "chunkId": "ab1e22",
+        "hash": "d6bf1472",
+        "encoded": "*%20Test%20helper%20utilities%20for%20common%20test%20operations",
+        "prevChunkIds": []
+      },
+      "5": {
+        "chunkId": "ab1e22",
+        "hash": "9f29447e",
+        "encoded": "*%20Provides%20reusable%20helper%20methods%20to%20reduce%20code%20duplication",
+        "prevChunkIds": []
+      },
+      "6": {
+        "chunkId": "ab1e22",
+        "hash": "f2ad3d4c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "7": {
+        "chunkId": "ab1e22",
+        "hash": "e7c24142",
+        "encoded": "export%20class%20TestHelpers%20%7B",
+        "prevChunkIds": []
+      },
+      "8": {
+        "chunkId": "ab1e22",
+        "hash": "cfd8e328",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "9": {
+        "chunkId": "ab1e22",
+        "hash": "93a65dac",
+        "encoded": "*%20Wait%20for%20a%20specific%20amount%20of%20time",
+        "prevChunkIds": []
+      },
+      "10": {
+        "chunkId": "ab1e22",
+        "hash": "f398d74c",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "11": {
+        "chunkId": "ab1e22",
+        "hash": "f1d1d06c",
+        "encoded": "static%20async%20wait(milliseconds:%20number):%20Promise%3Cvoid%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "12": {
+        "chunkId": "ab1e22",
+        "hash": "9af644ac",
+        "encoded": "await%20new%20Promise(resolve%20=%3E%20setTimeout(resolve,%20milliseconds));",
+        "prevChunkIds": []
+      },
+      "13": {
+        "chunkId": "ab1e22",
+        "hash": "e683dcf7",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "15": {
+        "chunkId": "ab1e22",
+        "hash": "014b98f0",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "16": {
+        "chunkId": "ab1e22",
+        "hash": "bf721f5e",
+        "encoded": "*%20Generate%20random%20email%20address",
+        "prevChunkIds": []
+      },
+      "17": {
+        "chunkId": "ab1e22",
+        "hash": "fc142b2b",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "18": {
+        "chunkId": "ab1e22",
+        "hash": "e3d241ab",
+        "encoded": "static%20generateRandomEmail():%20string%20%7B",
+        "prevChunkIds": []
+      },
+      "19": {
+        "chunkId": "ab1e22",
+        "hash": "e4d0c3c0",
+        "encoded": "const%20timestamp%20=%20Date.now();",
+        "prevChunkIds": []
+      },
+      "20": {
+        "chunkId": "ab1e22",
+        "hash": "bbb377c0",
+        "encoded": "const%20random%20=%20Math.floor(Math.random()%20*%2010000);",
+        "prevChunkIds": []
+      },
+      "21": {
+        "chunkId": "ab1e22",
+        "hash": "725800ee",
+        "encoded": "return%20%60testuser_$%7Btimestamp%7D_$%7Brandom%7D@example.com%60;",
+        "prevChunkIds": []
+      },
+      "22": {
+        "chunkId": "ab1e22",
+        "hash": "4c3814eb",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "24": {
+        "chunkId": "ab1e22",
+        "hash": "a1f7b1b8",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "25": {
+        "chunkId": "ab1e22",
+        "hash": "c44d3cd0",
+        "encoded": "*%20Generate%20random%20string",
+        "prevChunkIds": []
+      },
+      "26": {
+        "chunkId": "ab1e22",
+        "hash": "97550845",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "27": {
+        "chunkId": "ab1e22",
+        "hash": "a54843be",
+        "encoded": "static%20generateRandomString(length:%20number%20=%2010):%20string%20%7B",
+        "prevChunkIds": []
+      },
+      "28": {
+        "chunkId": "ab1e22",
+        "hash": "0cdc1e6e",
+        "encoded": "const%20characters%20=%20'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';",
+        "prevChunkIds": []
+      },
+      "29": {
+        "chunkId": "ab1e22",
+        "hash": "20716207",
+        "encoded": "let%20result%20=%20'';",
+        "prevChunkIds": []
+      },
+      "30": {
+        "chunkId": "ab1e22",
+        "hash": "0f3dac75",
+        "encoded": "for%20(let%20i%20=%200;%20i%20%3C%20length;%20i++)%20%7B",
+        "prevChunkIds": []
+      },
+      "31": {
+        "chunkId": "ab1e22",
+        "hash": "7bd1003a",
+        "encoded": "result%20+=%20characters.charAt(Math.floor(Math.random()%20*%20characters.length));",
+        "prevChunkIds": []
+      },
+      "32": {
+        "chunkId": "ab1e22",
+        "hash": "699fd80f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "33": {
+        "chunkId": "ab1e22",
+        "hash": "be2b6125",
+        "encoded": "return%20result;",
+        "prevChunkIds": []
+      },
+      "34": {
+        "chunkId": "ab1e22",
+        "hash": "b8d59d8e",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "36": {
+        "chunkId": "ab1e22",
+        "hash": "391bbb81",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "37": {
+        "chunkId": "ab1e22",
+        "hash": "85efc10d",
+        "encoded": "*%20Clear%20all%20cookies",
+        "prevChunkIds": []
+      },
+      "38": {
+        "chunkId": "ab1e22",
+        "hash": "7736df95",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "39": {
+        "chunkId": "ab1e22",
+        "hash": "7edb2eef",
+        "encoded": "static%20async%20clearCookies(page:%20Page):%20Promise%3Cvoid%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "40": {
+        "chunkId": "ab1e22",
+        "hash": "dd3e0114",
+        "encoded": "Logger.info('Clearing%20all%20cookies');",
+        "prevChunkIds": []
+      },
+      "41": {
+        "chunkId": "ab1e22",
+        "hash": "dad05cff",
+        "encoded": "await%20page.context().clearCookies();",
+        "prevChunkIds": []
+      },
+      "42": {
+        "chunkId": "ab1e22",
+        "hash": "5663967b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "44": {
+        "chunkId": "ab1e22",
+        "hash": "acdd418f",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "45": {
+        "chunkId": "ab1e22",
+        "hash": "5bced767",
+        "encoded": "*%20Clear%20local%20storage",
+        "prevChunkIds": []
+      },
+      "46": {
+        "chunkId": "ab1e22",
+        "hash": "de284ca5",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "47": {
+        "chunkId": "ab1e22",
+        "hash": "75964929",
+        "encoded": "static%20async%20clearLocalStorage(page:%20Page):%20Promise%3Cvoid%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "48": {
+        "chunkId": "ab1e22",
+        "hash": "cba3d2fb",
+        "encoded": "Logger.info('Clearing%20local%20storage');",
+        "prevChunkIds": []
+      },
+      "49": {
+        "chunkId": "ab1e22",
+        "hash": "90f4ec4a",
+        "encoded": "await%20page.evaluate(()%20=%3E%20localStorage.clear());",
+        "prevChunkIds": []
+      },
+      "50": {
+        "chunkId": "ab1e22",
+        "hash": "6a5bdc1a",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "52": {
+        "chunkId": "ab1e22",
+        "hash": "e47331a7",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "53": {
+        "chunkId": "ab1e22",
+        "hash": "38c30d3c",
+        "encoded": "*%20Clear%20session%20storage",
+        "prevChunkIds": []
+      },
+      "54": {
+        "chunkId": "ab1e22",
+        "hash": "43449f3f",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "55": {
+        "chunkId": "ab1e22",
+        "hash": "85e6c19a",
+        "encoded": "static%20async%20clearSessionStorage(page:%20Page):%20Promise%3Cvoid%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "56": {
+        "chunkId": "ab1e22",
+        "hash": "0b81a5e4",
+        "encoded": "Logger.info('Clearing%20session%20storage');",
+        "prevChunkIds": []
+      },
+      "57": {
+        "chunkId": "ab1e22",
+        "hash": "34cd67ae",
+        "encoded": "await%20page.evaluate(()%20=%3E%20sessionStorage.clear());",
+        "prevChunkIds": []
+      },
+      "58": {
+        "chunkId": "ab1e22",
+        "hash": "f4e179c9",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "60": {
+        "chunkId": "ab1e22",
+        "hash": "af335571",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "61": {
+        "chunkId": "ab1e22",
+        "hash": "f0b3643f",
+        "encoded": "*%20Get%20current%20timestamp",
+        "prevChunkIds": []
+      },
+      "62": {
+        "chunkId": "ab1e22",
+        "hash": "006039ec",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "63": {
+        "chunkId": "ab1e22",
+        "hash": "0ba92e63",
+        "encoded": "static%20getCurrentTimestamp():%20string%20%7B",
+        "prevChunkIds": []
+      },
+      "64": {
+        "chunkId": "ab1e22",
+        "hash": "fd44d59b",
+        "encoded": "return%20new%20Date().toISOString().replace(/%5B:.%5D/g,%20'-');",
+        "prevChunkIds": []
+      },
+      "65": {
+        "chunkId": "ab1e22",
+        "hash": "912d88e4",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "67": {
+        "chunkId": "ab1e22",
+        "hash": "349faf87",
+        "encoded": "/**",
+        "prevChunkIds": []
+      },
+      "68": {
+        "chunkId": "ab1e22",
+        "hash": "7a34e8c6",
+        "encoded": "*%20Retry%20function%20with%20exponential%20backoff",
+        "prevChunkIds": []
+      },
+      "69": {
+        "chunkId": "ab1e22",
+        "hash": "91b2d6df",
+        "encoded": "*/",
+        "prevChunkIds": []
+      },
+      "70": {
+        "chunkId": "ab1e22",
+        "hash": "a97e0425",
+        "encoded": "static%20async%20retryWithBackoff%3CT%3E(",
+        "prevChunkIds": []
+      },
+      "71": {
+        "chunkId": "ab1e22",
+        "hash": "b2e2c494",
+        "encoded": "fn:%20()%20=%3E%20Promise%3CT%3E,",
+        "prevChunkIds": []
+      },
+      "72": {
+        "chunkId": "ab1e22",
+        "hash": "8c17d324",
+        "encoded": "maxRetries:%20number%20=%203,",
+        "prevChunkIds": []
+      },
+      "73": {
+        "chunkId": "ab1e22",
+        "hash": "f28c6de5",
+        "encoded": "initialDelay:%20number%20=%201000",
+        "prevChunkIds": []
+      },
+      "74": {
+        "chunkId": "ab1e22",
+        "hash": "44c8b2d5",
+        "encoded": "):%20Promise%3CT%3E%20%7B",
+        "prevChunkIds": []
+      },
+      "75": {
+        "chunkId": "ab1e22",
+        "hash": "3977344c",
+        "encoded": "let%20lastError:%20Error%20%7C%20undefined;",
+        "prevChunkIds": []
+      },
+      "77": {
+        "chunkId": "ab1e22",
+        "hash": "474d3e9b",
+        "encoded": "for%20(let%20attempt%20=%200;%20attempt%20%3C%20maxRetries;%20attempt++)%20%7B",
+        "prevChunkIds": []
+      },
+      "78": {
+        "chunkId": "ab1e22",
+        "hash": "161058a8",
+        "encoded": "try%20%7B",
+        "prevChunkIds": []
+      },
+      "79": {
+        "chunkId": "ab1e22",
+        "hash": "4276eb69",
+        "encoded": "return%20await%20fn();",
+        "prevChunkIds": []
+      },
+      "80": {
+        "chunkId": "ab1e22",
+        "hash": "0c556e36",
+        "encoded": "%7D%20catch%20(error)%20%7B",
+        "prevChunkIds": []
+      },
+      "81": {
+        "chunkId": "ab1e22",
+        "hash": "404fd33f",
+        "encoded": "lastError%20=%20error%20as%20Error;",
+        "prevChunkIds": []
+      },
+      "82": {
+        "chunkId": "ab1e22",
+        "hash": "0ba68bcd",
+        "encoded": "Logger.warn(%60Attempt%20$%7Battempt%20+%201%7D%20failed:%20$%7BlastError.message%7D%60);",
+        "prevChunkIds": []
+      },
+      "84": {
+        "chunkId": "ab1e22",
+        "hash": "ceb5f019",
+        "encoded": "if%20(attempt%20%3C%20maxRetries%20-%201)%20%7B",
+        "prevChunkIds": []
+      },
+      "85": {
+        "chunkId": "ab1e22",
+        "hash": "17ea3566",
+        "encoded": "const%20delay%20=%20initialDelay%20*%20Math.pow(2,%20attempt);",
+        "prevChunkIds": []
+      },
+      "86": {
+        "chunkId": "ab1e22",
+        "hash": "6ef49070",
+        "encoded": "Logger.info(%60Retrying%20in%20$%7Bdelay%7Dms...%60);",
+        "prevChunkIds": []
+      },
+      "87": {
+        "chunkId": "ab1e22",
+        "hash": "110350a7",
+        "encoded": "await%20this.wait(delay);",
+        "prevChunkIds": []
+      },
+      "88": {
+        "chunkId": "ab1e22",
+        "hash": "726efa75",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "89": {
+        "chunkId": "ab1e22",
+        "hash": "9b477039",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "90": {
+        "chunkId": "ab1e22",
+        "hash": "1a9d363f",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "92": {
+        "chunkId": "ab1e22",
+        "hash": "26b42b2c",
+        "encoded": "throw%20lastError;",
+        "prevChunkIds": []
+      },
+      "93": {
+        "chunkId": "ab1e22",
+        "hash": "94b19f35",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      },
+      "94": {
+        "chunkId": "ab1e22",
+        "hash": "db89230b",
+        "encoded": "%7D",
+        "prevChunkIds": []
+      }
+    }
+  }
+}
