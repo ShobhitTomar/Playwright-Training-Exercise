@@ -6,10 +6,8 @@ pnpm-lock.yaml
 
 # Test results and reports
 test-results/
-playwright-report/
 allure-results/
 allure-report/
-screenshots/
 videos/
 
 # TypeScript
