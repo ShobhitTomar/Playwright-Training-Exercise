@@ -239,7 +239,7 @@ MIT License
 For issues and questions, please create an issue in the repository.
 
 ## Author
-QA Professional
+Shobhit Tomar
 
 ---
 **Happy Testing! 🚀**
