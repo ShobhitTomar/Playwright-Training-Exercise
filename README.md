@@ -18,26 +18,28 @@ A robust, scalable, and maintainable test automation framework built with Playwr
 ## Project Structure
 ```
 playwright-framework/
-├── pages/                  # Page Object Model classes
-│   ├── BasePage.ts        # Base page with common methods
-│   ├── LoginPage.ts       # Login page object
-│   └── HomePage.ts        # Home page object
-├── tests/                 # Test specifications
-│   ├── login.spec.ts     # Login test suite
-│   └── example.spec.ts   # Example test suite
-├── utils/                 # Utility classes
-│   ├── TestData.ts       # Test data management
-│   ├── Logger.ts         # Custom logger
-│   └── TestHelpers.ts    # Helper functions
-├── test-results/         # Test execution results
-├── playwright-report/    # HTML test reports
-├── allure-results/       # Allure test results
-├── allure-report/        # Allure HTML reports
-├── playwright.config.ts  # Playwright configuration
-├── tsconfig.json         # TypeScript configuration
-├── package.json          # Project dependencies
-├── .env.example          # Environment variables template
-└── README.md            # This file
+├── pages/                       # Page Object Model classes
+│   ├── BasePage.ts             # Base page with common methods
+│   ├── SaucedemoLoginPage.ts   # SauceDemo login page object
+│   └── SaucedemoProductsPage.ts # SauceDemo products page object
+├── tests/                      # Test specifications
+│   └── login.spec.ts          # SauceDemo login test suite
+├── utils/                      # Utility classes
+│   ├── TestData.ts            # Test data management
+│   ├── Logger.ts              # Custom logger
+│   └── TestHelpers.ts         # Helper functions
+├── test-results/              # Test execution results (generated)
+├── playwright-report/         # HTML test reports (generated)
+├── allure-results/            # Allure test results (generated)
+├── allure-report/             # Allure HTML reports (generated)
+├── screenshots/               # Test screenshots (generated)
+├── playwright.config.ts       # Playwright configuration
+├── tsconfig.json              # TypeScript configuration
+├── package.json               # Project dependencies
+├── .env.example               # Environment variables template
+├── FRAMEWORK_GUIDE.md         # Framework usage guide
+├── SAUCEDEMO_TEST_GUIDE.md    # SauceDemo test execution guide
+└── README.md                  # This file
 ```
 
 ## Prerequisites
@@ -82,7 +84,7 @@ npx playwright test --headed
 
 ### Run specific test file
 ```bash
-npx playwright test tests/example.spec.ts
+npx playwright test tests/login.spec.ts
 ```
 
 ### Run tests in specific browser

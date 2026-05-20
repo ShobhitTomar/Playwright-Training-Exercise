@@ -43,3 +43,6 @@ Thumbs.db
 # Playwright
 playwright/.cache/
 .playwright/
+
+# Slingshot
+.slingshot/
